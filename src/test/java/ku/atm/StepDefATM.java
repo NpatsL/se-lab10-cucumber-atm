@@ -73,7 +73,7 @@ public class StepDefATM {
 
     // add deposit feature
     @When("I deposit {float} into my account")
-    public void i_deposit_to_atm(double amount) {
+    public void i_deposit_into_my_account(double amount) {
          atm.deposit(amount);
     }
 
